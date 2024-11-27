@@ -1,0 +1,26 @@
+.navbar{
+    background-color: var(--primary-color);
+    display: flex;
+    height: auto;
+}
+#icono{
+
+}
+#cuadrado{
+    background-color: #001020;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: var(--border-radius);
+    margin: auto;
+}
+.navegacion{
+    display: flex;
+}
+.secciones{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+.menu{
+    display: none;
+}
