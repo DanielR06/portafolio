@@ -1,62 +1,12 @@
 import React from 'react'
 import './Main.css'
-import Presentcion from '../Presentacion/Presentcion'
+import Presentacion from '../Presentacion/Presentcion'
+import Proyectos from '../Proyectos/Proyectos'
 function Main() {
   return (
     <main>
-      <Presentcion></Presentcion>
-      <div id="container_proyectos" className='border'>
-        <div className="proyectos">
-          <h2>Proyectos</h2>
-          <div className="container_tarjetas_proyectos">
-            <div className="tarjeta_proyecto border">
-              <div className="descripcion_proyecto">
-                <img src="" alt="" />
-                <div className="descripcion">
-                  <h3>Titulo proyecto</h3>
-                  <p>este proyecto trata deee</p>
-                </div>
-              </div>
-              <div className="stack_proyecto">
-                <div><p>React</p></div>
-                <div><p>Node</p></div>
-                <div><p>Wheather Api</p></div>
-                <div><p>css</p></div>
-              </div>
-            </div>
-            <div className="tarjeta_proyecto border">
-              <div className="descripcion_proyecto">
-                <img src="" alt="" />
-                <div className="descripcion">
-                  <h3>Titulo proyecto</h3>
-                  <p>este proyecto trata deee</p>
-                </div>
-              </div>
-              <div className="stack_proyecto">
-                <div><p>React</p></div>
-                <div><p>Node</p></div>
-                <div><p>Wheather Api</p></div>
-                <div><p>css</p></div>
-              </div>
-            </div>
-            <div className="tarjeta_proyecto border">
-              <div className="descripcion_proyecto">
-                <img src="" alt="" />
-                <div className="descripcion">
-                  <h3>Titulo proyecto</h3>
-                  <p>este proyecto trata deee</p>
-                </div>
-              </div>
-              <div className="stack_proyecto">
-                <div><p>React</p></div>
-                <div><p>Node</p></div>
-                <div><p>Wheather Api</p></div>
-                <div><p>css</p></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Presentacion></Presentacion>
+      <Proyectos></Proyectos>
       <div id="container_habilidades_y_educacion">
         <div className="habilidades">
           <h3>Habilidades</h3>
