@@ -1,26 +1,45 @@
 .navbar{
     background-color: var(--primary-color);
     display: flex;
-    height: auto;
+    justify-content: space-between;
+    border-bottom: solid var(--secondary-color) 1px;
 }
 #icono{
-
+    padding: 1rem;
 }
 #cuadrado{
-    background-color: #001020;
-    width: 1.6rem;
-    height: 1.6rem;
+    background-color: var(--secondary-color);
+    width: 1.2rem;
+    height: 1.2rem;
     border-radius: var(--border-radius);
     margin: auto;
 }
-.navegacion{
+.Navegacion{
     display: flex;
+    align-items: center;
+    padding: 0 1rem;
 }
 .secciones{
-    display: flex;
     list-style: none;
+    display: flex;
     gap: 1rem;
 }
 .menu{
     display: none;
+}
+.button_menu {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: var(--border-radius);
+    padding: 0.5rem;
+    box-shadow: -0.2rem 0.2rem black;
+}
+
+@media (max-width: 480px) {
+    .menu{
+        display: block; 
+    }
+    .secciones{
+        display: none;
+    }
 }

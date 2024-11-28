@@ -12,7 +12,9 @@ function Navbar() {
           <li>Proyectos</li>
           <li>Habilidades</li>
         </ul>
-        <button className='menu'>Menu</button>
+        <div className='menu'>
+          <button className='button_menu'>Menu</button>
+        </div>
       </div>
     </nav>
   )
