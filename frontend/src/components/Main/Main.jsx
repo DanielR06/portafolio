@@ -1,25 +1,10 @@
 import React from 'react'
 import './Main.css'
-import personaje from '../../assets/Perfil-light-Theme.svg'
+import Presentcion from '../Presentacion/Presentcion'
 function Main() {
   return (
     <main>
-      <div className='border' id="container_presentacion">
-        <div id='presentacion'>
-          <div className="container_icono_sociales">
-            <img src={personaje} alt="" />
-            <div className="botones">
-              <button>Twitter X</button>
-              <button>Github</button>
-              <button>Linkedin</button>
-            </div>
-          </div>
-          <div className="texto_presentacion">
-            <h1>Daniel Rodriguez</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quo sapiente atque ullam possimus illo quod est acc.Enviame un correo</p>
-          </div>
-        </div>
-      </div>
+      <Presentcion></Presentcion>
       <div id="container_proyectos" className='border'>
         <div className="proyectos">
           <h2>Proyectos</h2>
