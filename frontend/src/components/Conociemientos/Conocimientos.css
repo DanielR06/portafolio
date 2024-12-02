@@ -1,0 +1,67 @@
+.container_conocimientos{
+    background-image: repeating-linear-gradient(135deg, var(--secondary-color) 0, var(--secondary-color) 0.5px, var(--primary-color) 0, var(--primary-color) 50%);
+    background-size: 1rem 1rem;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 650px){
+    .conocimientos{
+        flex-direction: column;
+    }
+}
+.conocimientos{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+}
+.habilidades{
+    width: 50%;
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+}
+.container_habilidades{
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 25%);
+}
+.habilidad{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.habilidad > p{
+    font-size: 0.8rem;
+}
+.icono{
+    width: 3rem;
+}
+.educaciones{
+    width: 50%;
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+}
+.educacion{
+    box-shadow: -0.2rem 0.2rem black;
+    border-radius: 5px;
+    padding: 0.2rem;
+    border: var(--border);
+}
+.educacion > p{
+    font-size: 0.8rem;
+}
+@media (max-width: 650px) {
+    .conocimientos{
+        width: 100%;
+    }
+    .habilidades{
+        width: auto;
+    }
+    .educaciones{
+        width: auto;
+    }
+}
