@@ -6,7 +6,6 @@
 
 html, body {
   width: 100%;
-  height: 100%;
 }
 
 ul, ol {
@@ -23,18 +22,20 @@ a {
   --primary-color: #FFFAEE;
   --secondary-color: #001020;
   --text-color: #000000;
-  --background-body-color:#faf7f1 ; 
+  --background-body-color:#fdf9f2 ; 
   --border-body:solid #ffeec8 1px;
   --border:solid #000000 1px;
+  /* medidas */
   --border-radius: 5%;
 }
 [data-theme='dark'] {
   /* Modo oscuro colores */
   --primary-color: #001020;
   --secondary-color: #FFFAEE;
-  --basic-color: #ffffff;
-  --background-body-color:#000000;
-  --border:solid #001831 1px; 
+  --text-color:#ffffff; 
+  --background-body-color:#000b17;
+  --border-body:solid #00152a 1px;
+  --border:solid #001831 1px;
 }
 html{font-size: 18px;}
 
@@ -65,3 +66,5 @@ h3{font-size: 1.2rem;}
 p{font-size: 1rem;}
 
 li{font-size: 1rem;}
+
+img{object-fit: contain;}
